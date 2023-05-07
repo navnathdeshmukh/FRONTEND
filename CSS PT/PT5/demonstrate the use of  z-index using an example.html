@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- HTML -->
+<div class="box red"></div>
+<div class="box blue"></div>
+<div class="box green"></div>
+
+<!-- CSS -->
+<style>
+  .box {
+    position: absolute; /* position the boxes */
+    width: 100px;
+    height: 100px;
+  }
+  
+  .red {
+    background-color: red;
+    left: 0;
+    top: 0;
+    z-index: 1; /* set the red box to appear on top */
+  }
+  
+  .blue {
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+    z-index: 0; /* set the blue box to appear behind the other boxes */
+  }
+  
+  .green {
+    background-color: green;
+    left: 100px;
+    top: 100px;
+    z-index: 2; /* set the green box to appear on top of the red box */
+  }
+</style>
+ 
+</body>
+</html>

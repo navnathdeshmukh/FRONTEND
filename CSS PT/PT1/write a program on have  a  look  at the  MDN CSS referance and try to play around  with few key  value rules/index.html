@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Playground</title>
+    <style>
+        /* Initial styles for the element */
+        #my-element {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="my-element">Hello, CSS!</div>
+
+    <script>
+        // Access the element using JavaScript
+        var myElement = document.getElementById('my-element');
+
+        // Change background color on mouseover
+        myElement.addEventListener('mouseover', function() {
+            this.style.backgroundColor = 'green';
+        });
+
+        // Change text color on click
+        myElement.addEventListener('click', function() {
+            this.style.color = 'red';
+        });
+
+        // Reset styles on mouseout
+        myElement.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'blue';
+            this.style.color = 'white';
+        });
+    </script>
+</body>
+</html>

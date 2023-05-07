@@ -1,0 +1,52 @@
+<!-- Margin collapsing can occur when there are adjacent elements with margins that touch each other. If the top margin of the content box and the bottom margin of the header and footer boxes are touching each other, then margin collapsing can occur, and the margins can collapse into a single margin.
+
+However, in the example layout we've created, the header, content, and footer sections have borders and padding, which prevent margin collapsing from occurring. Additionally, the content box is a separate block-level element, so its margin will not collapse with the margins of the header or footer boxes. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Margin Collapse Example</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		header, footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.content1 {
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.content2 {
+			background-color: #eaeaea;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Header</h1>
+	</header>
+
+	<div class="content1">
+		<p>Content 1</p>
+	</div>
+
+	<div class="content2">
+		<p>Content 2</p>
+	</div>
+
+	<footer>
+		<p>Footer</p>
+	</footer>
+</body>
+</html>
