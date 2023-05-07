@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Animations</title>
+    <style>
+      /* Define the styles for the element to be animated */
+      .pulse {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+        position: relative;
+        animation: pulse 1s ease-in-out infinite;
+      }
+      
+      /* Define the keyframe animation */
+      @keyframes pulse {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.2);}
+        100% {transform: scale(1);}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pulse"></div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+main p {
+    line-height: 1.5;
+}

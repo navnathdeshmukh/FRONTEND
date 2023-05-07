@@ -1,0 +1,71 @@
+1.What is Programming?
+It is a way to talk to computers. A language like Hindi, English, or Bengali can be used to talk to a human but for computers, we need straightforward instructions.
+Programming is the act of constructing a program, a set of precise 
+instructions telling a computer what to do.
+Programming is the process of designing, writing, testing, debugging, and
+maintaining the source code of computer programs. 
+It involves the use of programming languages and various tools to 
+create software programs that can be run on a computer or other devices.
+-------------------------------------------------------------------------
+2.What is ECMAScript?
+ECMAScript is a standard on which JavaScript is based!
+It was created to ensure that different documents on JavaScript are talking about the same language.
+ECMAScript Versions: 
+Beginning in 1997, 
+- ES1 was first released in 1997. 
+ECMAScript 2015 also known as ES6 was released in 2015 and a major revision to JavaScript was made.
+The latest version of JavaScript will be ECMaScript2022 (ES13) in 2022.
+-------------------------------------------------------------------------
+3.What is JavaScript?
+JavaScript is a lightweight, OOP language.
+It is a scripting language for web pages.
+It is used to add interactivity and dynamic effects to web pages.
+“.js” is the extension.
+Nowadays used in server-side development.
+JS Frontend Frameworks: React, Angular, Vue.
+JS Backend Frameworks: Express, Node.
+In this tutorial, we will learn JavaScript in depth
+-------------------------------------------------------------------------
+4.JS Execution
+Do we need to install Javascript?
+The answer is NO. 
+JavaScript is present everywhere in browsers, on your phone, etc.
+----------------------------------------------------------------------------------
+5.How to execute JavaScript?
+JavaScript can be executed right inside one’s browser. You can open the JS console and start writing JS there.
+Another way to execute JS is a runtime like Node.js which can be installed and used to run JavaScript code.
+Yet another way to execute JavaScript is by inserting it inside the <script> tag of an HTML document.
+-----------------------------------------------------------------------------------
+6.What is JavaScript?
+JavaScript is a programming language that is commonly used in web development. It is a client-side language, which means that 
+it is executed by the user's web browser rather than the web server.
+This allows JavaScript to interact with the user and create dynamic, interactive web pages.
+JavaScript is often used in combination with HTML and CSS to create web pages that are more interactive and engaging.
+It can be used to create all sorts of effects, such as drop-down menus, image sliders, and pop-up windows.
+-----------------------------------------------------------------------------------
+7.what is variable ?
+variables are used to store data. They are an essential part of any programming language, as they allow you to store, retrieve, and manipulate data in your programs.
+Declaring Variables :
+let y = 20;
+const z = 30;
+var x = 10;
+-------------------------------------------------------------------------------------
+8.Data Types
+In JavaScript, there are several data types that you can use to store different types of data. Some common data types include:
+Numbers (e.g. 10, 3.14)
+Strings (e.g. "hello", 'world')
+Booleans (e.g. true, false)
+Arrays (e.g. [1, 2, 3])
+Objects (e.g. { name: "John", age: 30 })
+-------------------------------------------------------------------------------------
+9. Variable Naming Rules
+There are a few rules that you need to follow when naming variables in JavaScript:
+Variable names can only contain letters, digits, underscores, and dollar signs.
+Variable names cannot start with a digit.
+Variable names are case-sensitive.
+It is also a good practice to use descriptive and meaningful names for your variables, as this makes your code easier to read and understand.
+var x = 10;
+console.log(x); // prints 10
+-------------------------------------------------------------------------------------
+10. 
+

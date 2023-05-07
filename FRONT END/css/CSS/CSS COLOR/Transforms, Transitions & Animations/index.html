@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transforms, Transitions & Animations</title>
+    <style>
+      /* Define initial styles for the box */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: transform 1s ease-in-out;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+        animation-play-state: running;
+      }
+      
+      /* Define the transform to be applied when the box is hovered over */
+      .box:hover {
+        transform: rotate(45deg) scale(1.5);
+      }
+      
+      /* Define the keyframe animation */
+      @keyframes example {
+        from {background-color: blue; left: 0; top: 0;}
+        to {background-color: red; left: 200px; top: 200px;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

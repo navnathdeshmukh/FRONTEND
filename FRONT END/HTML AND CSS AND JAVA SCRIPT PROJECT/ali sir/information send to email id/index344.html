@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>https://gmail.com</title>
+<style>
+    .container{
+        color:blue;
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+</style>
+<h1 align = "center" STYLE="COLOR:rgb(0, 255, 0)"><U><I>Sending Information To The Mail</I></U></h1>
+</head>
+<body>
+<div class="container">
+<FORM action="https://formsubmit.co/navnathdeshmukh344@gmail.com" method="POST">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+NAME &nbsp; &nbsp; &nbsp; &nbsp;:
+<input  type="text" name="name" required placeholder="name" ></br></br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ROLL NO &nbsp;&nbsp;:
+<input type="text" name="roll no" required placeholder="roll no" ></br></br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+EMAIL ID&nbsp;&nbsp;:
+<input type="email" name="email" required placeholder="email"  ></br></br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+SUBJECT&nbsp; &nbsp;:
+<input type="body" name="body" required placeholder="SUBJECT "><br><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<button type="submit">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Submit&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button><br><br>
+
+</FORM>
+
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript">
+function sendEmail(){
+Email.send({
+Host : "smtp.elasticemail.com",
+Username : "navnathdeshmukh344@gmail.com",
+Password : "5675656767",
+To : "navnathdeshmukh344@gmail.com",
+From : document.getElementById("email").value,
+Subject : "new info form:",
+Body : document.getElementById("message").value
+}).then(
+message => alert(" email sent successfully...")
+); 
+}
+</script>
+</body>
+</html>

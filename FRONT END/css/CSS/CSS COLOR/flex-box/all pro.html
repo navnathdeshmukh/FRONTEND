@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML -->
+<div class="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+  </div>
+  
+  <!-- CSS -->
+  <style>
+    .container {
+      display: flex; /* set the container to use flexbox layout */
+      flex-direction: row; /* set the main axis to be horizontal */
+      justify-content: space-between; /* align the boxes with space between them */
+      align-items: center; /* vertically center the boxes */
+      height: 200px; /* set the height of the container */
+      background-color: #f5f5f5; /* set the background color of the container */
+    }
+    
+    .box {
+      flex: 1; /* distribute the available space equally among the boxes */
+      height: 100px; /* set the height of the boxes */
+      background-color: white; /* set the background color of the boxes */
+      border: 1px solid black; /* add a border to the boxes */
+      box-sizing: border-box; /* include the border in the height of the boxes */
+      display: flex; /* enable flexbox layout for the boxes */
+      justify-content: center; /* center the contents horizontally */
+      align-items: center; /* center the contents vertically */
+    }
+    
+    .box1 {
+      order: 1; /* set the order of this box to be first */
+    }
+    
+    .box2 {
+      order: 3; /* set the order of this box to be third */
+      flex-basis: 200px; /* set the initial width of this box to be 200px */
+    }
+    
+    .box3 {
+      order: 2; /* set the order of this box to be second */
+      flex-grow: 2; /* allow this box to grow twice as much as the other boxes */
+    }
+  </style>
+  
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deshmukh  page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1><B>USER DETAILS</B></h1>
+           User Name:<br>
+            <input type="text" id="name" placeholder="enter name..." required><br><br>
+            Password:<br>
+            <input type="text" id="pass" placeholder="enter mob..." required><br><br>
+            <input type="button" value="Submit" onclick="validate()">
+
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+function validate()
+{
+    var user_name=document.getElementById("name");
+    var pas=document.getElementById("pass");
+    if((user_name.value.match("deshmukh"))&&(pas.value.match("deshmukh@123")))
+    {
+        alert("welcome user...");
+    }
+    else if((user_name.value.match("Gramin")))
+    {
+        alert("Invalid password...")
+    }
+    else if((pas.value.match("gramin@123")))
+    {
+        alert("Invalid Username...")
+    }
+    else{
+        alert("Invalid User...")
+    }
+  
+}
+    </script>
+</body>
+</html>
